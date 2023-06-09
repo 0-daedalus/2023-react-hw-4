@@ -1,11 +1,14 @@
 import React from "react";
 import Header from "@/Components/Header";
 import Footer from "@/Components/Footer";
+import Main from "@/Components/Main";
 export default function Home() {
+    
+
     return <main>
         <div className="w-screen h-screen flex flex-col">
             <Header />
-            <div className="flex-1 bg-blue-200"></div>
+            <Main />
             <Footer />
         </div>
     </main>;
